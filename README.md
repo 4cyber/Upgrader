@@ -1,2 +1,3 @@
 # Upgrader
-simple linux distro upgrader
+simple bash linux distro upgrader
+requires figlet (apt-get install figlet)
