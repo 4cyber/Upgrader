@@ -1,4 +1,8 @@
 #/bin/bash
+if [[ $EUID -ne 0 ]]; then
+   echo "This script must be run as root" 1>&2
+   exit 1
+fi
 for i in 5 4 3 2 1 0
 do
 clear
